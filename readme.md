@@ -6,22 +6,23 @@ Download zip and open in your preferred IDE.
 
 Using the command line:
 
-- pip install flask
-- pip install flask_pymongo
+    pip install flask
+    pip install flask_pymongo
 
 ## Creating a virtual environment for linux
 
-- python3 -m venv .venv
-- source .venv/bin/activate
+    python3 -m venv .venv
+    source .venv/bin/activate
 
 Run your python script with the following command:
-- python app.py (Normaly named: app.py, run.py)
+    python app.py 
+(Normaly named: app.py, run.py)
 
 ## Deploying on heroku
 
 After you have installed all the dependencies for your project, run the following commands.
 
-- pip freeze --local > requirements.txt
+    pip freeze --local > requirements.txt
 
 This will create the list of dependencies your project will rely on.
 The Procfile is used to communicate with heroku and tell it what project type we have.
