@@ -11,7 +11,7 @@ Using the command line:
 
 ## Creating a virtual environment for linux
 
-- python -m venv .venv
+- python3 -m venv .venv
 - source .venv/bin/activate
 
 Run your python script with the following command:
