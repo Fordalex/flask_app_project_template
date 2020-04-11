@@ -2,17 +2,17 @@
 
 Download zip and open in your preferred IDE.
 
+## Creating a virtual environment for linux
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+
 ## Install flask
 
 Using the command line:
 
     pip install flask
     pip install flask_pymongo
-
-## Creating a virtual environment for linux
-
-    python3 -m venv .venv
-    source .venv/bin/activate
 
 Run your python script with the following command:
     python app.py 
